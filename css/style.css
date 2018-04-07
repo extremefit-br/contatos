@@ -1,0 +1,20 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.box-contato{
+    width: 550px;
+    border: solid 1px black;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+.img-perfil{
+    width: 120px;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+.desc{
+    clear: both;
+    text-align: justify;
+}
