@@ -1,13 +1,27 @@
+html{
+    background-image: url("https://raw.githubusercontent.com/extremefit-br/contatos/master/logo.png");
+}
 *{
     font-family: 'Roboto Slab', serif;
+}
+main{
+    display: flex;
+    /* padding: 20px 230px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1130px;
+    margin: 0 auto;
+    
 }
 .box-contato{
     width: 550px;
     border: solid 1px black;
-    height: 250px;
+    height: 206px;
     box-sizing: border-box;
     padding: 10px;
     box-shadow: 10px 5px 5px black;
+    background: white;
+    margin-top: 15px;
 }
 .img-perfil{
     width: 120px;
@@ -17,4 +31,5 @@
 .desc{
     clear: both;
     text-align: justify;
+    font-size: 14px;
 }
